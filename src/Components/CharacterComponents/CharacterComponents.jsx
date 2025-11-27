@@ -26,6 +26,7 @@ const CharacterComponents = () => {
     setPageNumber((oldpageNumber) => oldpageNumber - 1)
   }
 
+  //ajayRajkumar
 
   return (
     <div className="characters">
