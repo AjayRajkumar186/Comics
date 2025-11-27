@@ -8,20 +8,21 @@ import CharacterComponents from './Components/CharacterComponents/CharacterCompo
 
 function App() {
 
- 
+
 
 
   return (
     <>
-    
-   <div className="app">
-    <div className="container">
-      <h1>Rick and Motry</h1>
-      <CharacterComponents/>
-    </div>
-   </div>
+      <div className="app">
+        <div className="container">
 
-   </>
+          <h1>Rick and Motry</h1>
+
+          <CharacterComponents />
+
+        </div>
+      </div> 
+    </>
   )
 }
 
