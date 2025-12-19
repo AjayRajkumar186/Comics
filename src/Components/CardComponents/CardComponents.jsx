@@ -13,8 +13,6 @@ const CardComponents = ({ character }) => {
       </div>
 
     </div>
-
-
   )
 }
 

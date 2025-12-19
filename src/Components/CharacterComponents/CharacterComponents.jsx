@@ -38,7 +38,6 @@ const CharacterComponents = () => {
         <div><button onClick={renderPrevPage} disabled={pageNumber === 1}>Prev</button></div>
         <div><button onClick={renderNextPage} disabled={!characters.info || !characters.info.next}>Next</button></div>
       </div>
-
     </div>
 
   )
