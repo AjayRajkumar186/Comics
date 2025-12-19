@@ -13,8 +13,9 @@ const CharacterComponents = () => {
   }, [pageNumber])
 
   const fetchcharacterfromApl = async () => {
-    const response = await axios.get(`https://rickandmortyapi.com/api/character?page=${pageNumber}`)
-    setCharacters(response.data)
+    const response = await fetch(`https://rickandmortyapi.com/api/character?page=${pageNumber}`)
+    const data = await response.json();
+    setCharacters(data)
     console.log(response.data.results);
   }
 
